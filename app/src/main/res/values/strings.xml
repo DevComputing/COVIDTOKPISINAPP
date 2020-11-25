@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">COVID AWARENESS IN TOKPISIN</string>
+    <string name="app_name">COVID (TOKPISIN)</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">COVID IN TOKPISIN</string>
-    <string name="nav_header_subtitle">dev-computing.com</string>
+    <string name="nav_header_subtitle">developmentcomputing.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
