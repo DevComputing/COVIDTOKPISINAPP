@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_img"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="5dp">
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/save1"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/save2"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="5dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/lukautim"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/kisim"/>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

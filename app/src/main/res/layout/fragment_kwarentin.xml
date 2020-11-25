@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_img"
+    tools:context=".ui.kwarentin.KwarentinFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/purple_500"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kwarentin_1"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/purple_500"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kwarentin_2"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/purple_500"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kwarentin_3"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/purple_500"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kwarentin_4"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

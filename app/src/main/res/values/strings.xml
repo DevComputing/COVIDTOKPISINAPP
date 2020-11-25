@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">COVID AWARENESS IN TOKPISIN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">COVID IN TOKPISIN</string>
+    <string name="nav_header_subtitle">dev-computing.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">SAVE LONG SIK COVID-19</string>
+    <string name="menu_callTitle">KISIM HALVIM KWITKTAIM</string>
+    <string name="menu_call">RINGIM COVID HOTLINE</string>
+    <string name="menu_kwarentin">KWARENTIN LONG HAUS</string>
+    <string name="menu_updateTitle">NIUPLA STORI NA TOKSAVE</string>
+    <string name="menu_updatesubTitle">NAMBA BLONG SIK</string>
+    <string name="hotline_namba">1–800200</string>
+    <string name="internet_image">image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title">Title</string>
+    <string name="text">Text</string>
+</resources>
