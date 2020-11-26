@@ -18,11 +18,11 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dev_computing.covidintokpisin.ListAdapter;
+
 import com.dev_computing.covidintokpisin.ListItem;
 import com.dev_computing.covidintokpisin.ListItemAdapter;
 import com.dev_computing.covidintokpisin.R;
-import com.dev_computing.covidintokpisin.ui.toksave.ToksaveViewModel;
+import com.dev_computing.covidintokpisin.ui.slideshow.SlideshowViewModel;
 
 
 import org.jsoup.Jsoup;

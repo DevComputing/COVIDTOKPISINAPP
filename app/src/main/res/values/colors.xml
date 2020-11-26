@@ -11,7 +11,8 @@
     <color name="toolbar">#00b6e0</color>
     <color name="grey">#d7d7d7</color>
     <color name="call">#00dac5</color>
-
-
+    <color name="raspberry">#b3446c</color>
+    <color name="blue">#0BB5FF</color>
+    <color name="baby_blue">#89CFF0</color>
 
 </resources>

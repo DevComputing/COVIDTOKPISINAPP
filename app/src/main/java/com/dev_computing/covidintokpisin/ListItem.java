@@ -1,6 +1,6 @@
 package com.dev_computing.covidintokpisin;
 
-import com.dev_computing.covidintokpisin.ui.toksave.ToksaveFragment;
+import com.dev_computing.covidintokpisin.ui.slideshow.SlideshowFragment;
 
 import java.util.ArrayList;
 
