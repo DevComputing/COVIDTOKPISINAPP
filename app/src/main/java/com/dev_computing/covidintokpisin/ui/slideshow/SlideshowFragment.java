@@ -21,6 +21,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.dev_computing.covidintokpisin.ListItem;
 import com.dev_computing.covidintokpisin.ListItemAdapter;
+import com.dev_computing.covidintokpisin.ListItemRepository;
 import com.dev_computing.covidintokpisin.R;
 import com.dev_computing.covidintokpisin.ui.slideshow.SlideshowViewModel;
 
@@ -32,6 +33,7 @@ import org.jsoup.select.Elements;
 import org.w3c.dom.Text;
 
 import java.io.IOException;
+import java.sql.Struct;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -46,11 +48,11 @@ public class SlideshowFragment extends Fragment{
     private TextView title;
     private SlideshowViewModel slideshowViewModel;
     private RecyclerView recyclerView;
-
-//    private ToksaveViewModel mViewModel;
     private TextView textView;
     private ListItemAdapter adapter;
-    private ArrayList<ListItem> listItems = new ArrayList<>();
+//  private ArrayList<ListItem> listItems = new ArrayList<>();
+
+
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -78,25 +80,28 @@ public class SlideshowFragment extends Fragment{
         initRecyclerView();
 
 
-//      slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-//            @Override
-//            public void onChanged(@Nullable String s) {
-//                textView.setText(s);
-//
-//            }
-//        });
+
+
+/*
+      slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+            @Override
+            public void onChanged(@Nullable String s) {
+                textView.setText(s);
+
+            }
+        }); */
 
         return root;
-
         }
 
     private void initRecyclerView() {
         Log.d(TAG, "initRecyclerView: started.");
 
-//        adapter = new ListAdapter(this, slideshowViewModel.getListItems().getValue());
         adapter = new ListItemAdapter(this, slideshowViewModel.getListItems().getValue());
         RecyclerView.LayoutManager linearLayoutManager = new LinearLayoutManager(this.getContext());
+
         recyclerView.setLayoutManager(linearLayoutManager);
+        recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(adapter);
 
     }

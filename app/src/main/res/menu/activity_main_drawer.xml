@@ -13,7 +13,9 @@
             android:id="@+id/nav_kwarentin"
             android:icon="@drawable/ic_info"
             android:title="@string/menu_kwarentin" />
+
     </group>
+
 
 
     <item android:title="@string/menu_callTitle">

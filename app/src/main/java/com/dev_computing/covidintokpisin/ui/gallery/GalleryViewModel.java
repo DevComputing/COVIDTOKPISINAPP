@@ -11,7 +11,7 @@ public class GalleryViewModel extends ViewModel {
 
     public GalleryViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("ringim covid-19 hotline nau");
+        mText.setValue("ringim covid-19 hotline nau yet");
 
     }
 

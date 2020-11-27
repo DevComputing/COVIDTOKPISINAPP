@@ -11,7 +11,7 @@
     <string name="menu_callTitle">KISIM HALVIM KWITKTAIM</string>
     <string name="menu_call">RINGIM COVID HOTLINE</string>
     <string name="menu_kwarentin">KWARENTIN LONG HAUS</string>
-    <string name="menu_updateTitle">NIUPLA STORI NA TOKSAVE</string>
+    <string name="menu_updateTitle">NIUPLA TOKTOK (LIVE UPDATE)</string>
     <string name="menu_updatesubTitle">NAMBA BLONG SIK</string>
     <string name="hotline_namba">1–800200</string>
     <string name="internet_image">image</string>
@@ -19,4 +19,5 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="title">Title</string>
     <string name="text">Text</string>
+    <string name="covid_awareness">COVID AWARENESS</string>
 </resources>

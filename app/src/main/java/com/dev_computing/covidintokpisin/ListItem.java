@@ -9,13 +9,15 @@ public class ListItem {
     private String title;
     private String text;
 
-    public ListItem() {
-    }
+
+//    public ListItem() {
+//    }
 
     public ListItem(String title, String text) {
         this.title = title;
         this.text = text;
     }
+
 
     public String getTitle() {
         return title;

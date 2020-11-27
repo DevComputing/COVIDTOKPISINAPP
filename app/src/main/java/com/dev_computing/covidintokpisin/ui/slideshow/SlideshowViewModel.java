@@ -40,6 +40,7 @@ public class SlideshowViewModel extends ViewModel {
 
     }
 
+
 //    private MutableLiveData<String> mTitles = new MutableLiveData<String>();
 
 //    public LiveData<List<ListItem>> getListItems(){

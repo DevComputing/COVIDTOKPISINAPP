@@ -41,6 +41,7 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemAdapter.ViewHo
     public void onBindViewHolder(@NonNull ListItemAdapter.ViewHolder holder, int position) {
         Log.d(TAG, "onBindViewHolder: called.");
 
+        ListItem listItem = listItems.get(position);
 
         holder.textTitle.setText(listItems.get(position).getTitle());
         holder.textView.setText(listItems.get(position).getText());
